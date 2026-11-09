@@ -1,0 +1,9 @@
+{
+  "name": "E1",
+  "split": "test_id",
+  "n": 50,
+  "planners": ["naive", "repair", "oracle"],
+  "optimizer_config": "configs/optimizer_default.json",
+  "output_dir": "results/e1",
+  "K": 3
+}

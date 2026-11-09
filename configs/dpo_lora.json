@@ -1,0 +1,12 @@
+{
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "data_path": "data/out/train.dpo.jsonl",
+  "output_dir": "runs/dpo",
+  "lora_r": 16,
+  "lora_alpha": 32,
+  "learning_rate": 5e-5,
+  "max_steps": 200,
+  "grad_accum": 8,
+  "beta": 0.1,
+  "max_length": 1024
+}

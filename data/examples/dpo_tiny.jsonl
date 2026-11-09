@@ -1,0 +1,1 @@
+{"prompt": "Goal: box_0 in room_1", "chosen": "[{\"action\":\"push\",\"box\":\"box_0\",\"target_region\":\"room_1\"},{\"action\":\"done\"}]", "rejected": "[{\"action\":\"navigate\",\"region\":\"room_1\"},{\"action\":\"done\"}]"}

@@ -1,0 +1,13 @@
+{
+  "v_max": 1.0,
+  "w_max": 1.2,
+  "min_turn_radius": 0.0,
+  "max_push_force": 40.0,
+  "horizon_n": 25,
+  "timeout_s": 2.0,
+  "goal_pos_tol": 0.22,
+  "goal_theta_tol": 0.5,
+  "grid_resolution": 0.1,
+  "polish": true,
+  "g": 9.81
+}

@@ -1,0 +1,16 @@
+{
+  "name": "E3",
+  "split": "test_id",
+  "n": 20,
+  "planners": ["oracle", "repair"],
+  "K": 3,
+  "output_dir": "results/e3",
+  "optimizer_configs": {
+    "A": "configs/optimizer_default.json",
+    "B": "configs/optimizer_tight.json"
+  },
+  "adapters": {
+    "tuned_A": "runs/sft_A",
+    "tuned_B": "runs/sft_B"
+  }
+}
